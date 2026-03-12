@@ -15,7 +15,7 @@ Remember those late nights racking up points on Space Cadet? This is our love le
 ## 🕹️ Play It
 
 **Online:** Deploy to GitHub Pages and play instantly —  
-`https://<your-username>.github.io/pinball/`
+`https://jmanuelcorral.github.io/pinball/`
 
 **Locally:**
 
