@@ -89,10 +89,14 @@ export class Game {
       plunger.charge(dt);
     }
 
-    if (this.input.plungerReleased && plunger.compression > 2) {
-      this.ball.vy = plunger.release();
-      this.ball.active = true;
-      this.state = 'PLAYING';
+    if (this.input.plungerReleased) {
+      if (plunger.compression > 2) {
+        this.ball.vy = plunger.release();
+        this.ball.active = true;
+        this.state = 'PLAYING';
+      } else {
+        plunger.reset();
+      }
     }
 
     // Update flipper angles even in READY
