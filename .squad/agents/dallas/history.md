@@ -22,3 +22,16 @@ Ripley delivered complete playable pinball game. Key architectural decisions:
 **Impact:** Physics and rendering fully decoupled. Can enhance visuals without touching physics. Entity system supports adding ramps, spinners, etc.
 
 **For Dallas:** Game is fully playable. Test harness ready. Can design QA test cases around entity behavior, scoring, collision edge cases.
+
+### README Rewrite (2026-03-12)
+
+Rewrote README.md with full project documentation covering all 11 sections requested:
+
+- **Hero section** with ingame.gif displayed prominently, centered
+- **Controls table** — all key bindings for flippers, plunger, and start
+- **Features list** — 10 bullet points covering physics, visuals, scoring, and zero-dependency philosophy
+- **Architecture table** — all 8 modules with their responsibilities
+- **Tech stack, local dev, and deployment** — GitHub Pages instructions included
+- **Tone:** Nostalgic, fun, professional — matches the Space Cadet tribute vibe
+
+**Pattern:** When documenting game projects, lead with visuals (GIF/screenshot) and playable links before technical details. Players care about playing first, architecture second.
